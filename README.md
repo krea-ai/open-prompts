@@ -65,13 +65,13 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-with the right spark, we humans are infinite sources of creativity.
+with the right spark, we humans are sources of infinite creativity.
 
 *the prompt repository* democratizes a wide variety of creative knowledge to serve as an inspiration when using text-to-image AI models.
 
 this is an open knowledge base made by the AI Art community and powered by krea.ai.
 
-you can <a hred=#-contributing>contribute</a> with your own prompts, they will be accessible for anyone and for free [here](https://krea.ai).
+you can <a href=#-contributing>contribute</a> with your own prompts, they will be accessible for anyone and for free [here](https://krea.ai).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,39 +85,39 @@ AI is extending the creative possibilities of language to the realm of visual ar
 
 today, a few words is all we need to express our ideas visually through an image.
 
-models like DALL-E, Stable Diffusion, or Midjourney, are capable of creating almost any image we can imagine if we are able to find the right combination of words for them to understand our purpose.
+models like DALL-E, Stable Diffusion, or Midjourney, are capable of creating almost any image we can imagine if we find the right combination of words that make them understand our purpose.
 
-the art of optimizing the inputs we feed into an AI model to generate content that is in alignment with our purpose is known as *prompting* or *prompt engineering*.
+the art of optimizing the inputs we feed into an AI model to generate content is known as *prompting* or *prompt engineering*.
 
-a good *prompter* will be able to guide a text-to-image AI model with prompts that produce images that accurately represent their visual ideas.
+a good *prompter* will be able to guide a text-to-image AI model with prompts that produce images that align with their visual ideas.
 
 ### what great *prompters* need
 #### sparks of inspiration
-since language is something that most of us master since a young age, being good at the emerging skill of *prompting* is very related on how creative and original we can get at imagining a text prompt.
+since language is something that most of us master (at a certain level) since a young age, being good at *prompting* is highly conditioned on how creative and original we can get with our text prompts.
 
 creativity is inherently related with the combination of dispar ideas in ways that we never imagined before.
 
 indeed, half of the work in creative jobs consists of searching for ideas to merge together and create something new.
 
-that is why open Discords like Midjourney's have worked so well with text-to-image AI models, people get a lot of value and ideas from other's generations.
+that is why open Discords like Midjourney's have worked so well with text-to-image AI models, people get lots of ideas from other's generations.
 
 #### visual domain knowledge
-there are many ways to express an idea through text, and there are words that can convey ideas extremelly well.
+there are many ways to express an idea through text, and there are words that can convey complex ideas extremelly well.
 
-that's why a good vocabulary is something helpful for expressing ourselves to text and the reason why dictionaries are so handy.
+that's why a good vocabulary is something helpful for expressing through text.
 
 something similar happens with *prompting*.
 
-a simple word can convey an insane amount of information about how our final image should look like, from specific kinds of lighting to artistic mediums or composition.
+a simple word can convey an insane amount of information about how our final image will look like, from specific kinds of lighting to artistic mediums or compositions.
 
 for example, the word "Dali" will serve us to describe an image that looks like a surrealist painting with abstract shapes and bizarre elements.
 
-hence, a good visual domain knowledge is key for *prompt engineering*, knowing about different artistic styles, 3D renderers, or photography, enables us to have a wider vocabulary that we can use to communicate our ideas more effectively with the AI.
+hence, a good visual domain knowledge is key for *prompt engineering*, knowing about different artistic styles, 3D renderers, or photography, enables us to have a wider visual vocabulary that can become handy to communicate our ideas more effectively to an AI model.
 
 ### the prompt repository
 with this project we provide *prompters* with a source of inspiration and of visual domain knowledge.
 
-on the one side, the prompts from our knowledge are continuously updated by a community of AI enthusiasts that <a href=#-contributing>contribute</a> with their creative ideas, so there are always new ideas to check out.
+on the one side, the prompts from our knowledge base are continuously updated by a community of AI enthusiasts that <a href=#-contributing>contribute</a> with their creative ideas, so there are always new ideas to check out.
 
 plus, at [krea.ai](https://krea.ai), it is possible to visualize all this prompts, giving extra room for inspiration and surprises.
 
