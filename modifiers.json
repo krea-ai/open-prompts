@@ -555,6 +555,544 @@
     },
     {
         "id": 2,
+        "name": "art",
+        "subcategories": [
+            {
+                "id": 0,
+                "name": "art movements",
+                "modifiers": [
+                    {
+                        "id": 0,
+                        "name": "academic art"
+                    },
+                    {
+                        "id": 1,
+                        "name": "action painting"
+                    },
+                    {
+                        "id": 2,
+                        "name": "art Brut"
+                    },
+                    {
+                        "id": 3,
+                        "name": "art deco"
+                    },
+                    {
+                        "id": 4,
+                        "name": "art Nouveau"
+                    },
+                    {
+                        "id": 5,
+                        "name": "ashcan school"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Australian tonalism"
+                    },
+                    {
+                        "id": 7,
+                        "name": "baroque"
+                    },
+                    {
+                        "id": 8,
+                        "name": "bauhaus"
+                    },
+                    {
+                        "id": 9,
+                        "name": "brutalism"
+                    },
+                    {
+                        "id": 10,
+                        "name": "child’s drawing"
+                    },
+                    {
+                        "id": 11,
+                        "name": "concept art"
+                    },
+                    {
+                        "id": 12,
+                        "name": "concrete art"
+                    },
+                    {
+                        "id": 13,
+                        "name": "cubism"
+                    },
+                    {
+                        "id": 14,
+                        "name": "cubist"
+                    },
+                    {
+                        "id": 15,
+                        "name": "detailed painting"
+                    },
+                    {
+                        "id": 16,
+                        "name": "expressionism"
+                    },
+                    {
+                        "id": 17,
+                        "name": "fauvism"
+                    },
+                    {
+                        "id": 18,
+                        "name": "film noir"
+                    },
+                    {
+                        "id": 19,
+                        "name": "filmic"
+                    },
+                    {
+                        "id": 20,
+                        "name": "fluxus"
+                    },
+                    {
+                        "id": 21,
+                        "name": "folk art"
+                    },
+                    {
+                        "id": 22,
+                        "name": "futurism"
+                    },
+                    {
+                        "id": 23,
+                        "name": "geometric abstract art"
+                    },
+                    {
+                        "id": 24,
+                        "name": "gothic art"
+                    },
+                    {
+                        "id": 25,
+                        "name": "graffiti"
+                    },
+                    {
+                        "id": 26,
+                        "name": "Harlem renaissance"
+                    },
+                    {
+                        "id": 27,
+                        "name": "Heidelberg school"
+                    },
+                    {
+                        "id": 28,
+                        "name": "hudson river school"
+                    },
+                    {
+                        "id": 29,
+                        "name": "hypermodernism"
+                    },
+                    {
+                        "id": 30,
+                        "name": "hyperrealism"
+                    },
+                    {
+                        "id": 31,
+                        "name": "impressionism"
+                    },
+                    {
+                        "id": 32,
+                        "name": "kinetic pointillism"
+                    },
+                    {
+                        "id": 33,
+                        "name": "lyrical abstraction"
+                    },
+                    {
+                        "id": 34,
+                        "name": "mannerism"
+                    },
+                    {
+                        "id": 35,
+                        "name": "matte painting"
+                    },
+                    {
+                        "id": 36,
+                        "name": "maximalism"
+                    },
+                    {
+                        "id": 37,
+                        "name": "maximalist"
+                    },
+                    {
+                        "id": 38,
+                        "name": "minimalism"
+                    },
+                    {
+                        "id": 39,
+                        "name": "minimalist"
+                    },
+                    {
+                        "id": 40,
+                        "name": "modern art"
+                    },
+                    {
+                        "id": 41,
+                        "name": "modern European ink painting"
+                    },
+                    {
+                        "id": 42,
+                        "name": "movie poster"
+                    },
+                    {
+                        "id": 43,
+                        "name": "naïve art"
+                    },
+                    {
+                        "id": 44,
+                        "name": "neo-primitivism"
+                    },
+                    {
+                        "id": 45,
+                        "name": "photorealism"
+                    },
+                    {
+                        "id": 46,
+                        "name": "pointillism"
+                    },
+                    {
+                        "id": 47,
+                        "name": "pop art"
+                    },
+                    {
+                        "id": 48,
+                        "name": "post-impressionism"
+                    },
+                    {
+                        "id": 49,
+                        "name": "poster art"
+                    },
+                    {
+                        "id": 50,
+                        "name": "pre-raphaelitism"
+                    },
+                    {
+                        "id": 51,
+                        "name": "precisionism"
+                    },
+                    {
+                        "id": 52,
+                        "name": "primitivism"
+                    },
+                    {
+                        "id": 53,
+                        "name": "psychedelic art"
+                    },
+                    {
+                        "id": 54,
+                        "name": "qajar art"
+                    },
+                    {
+                        "id": 55,
+                        "name": "renaissance painting"
+                    },
+                    {
+                        "id": 56,
+                        "name": "retrofuturism"
+                    },
+                    {
+                        "id": 57,
+                        "name": "romanesque"
+                    },
+                    {
+                        "id": 58,
+                        "name": "romanticism"
+                    },
+                    {
+                        "id": 59,
+                        "name": "storybook illustration"
+                    },
+                    {
+                        "id": 60,
+                        "name": "street art"
+                    },
+                    {
+                        "id": 61,
+                        "name": "surrealism"
+                    },
+                    {
+                        "id": 62,
+                        "name": "synthetism"
+                    },
+                    {
+                        "id": 63,
+                        "name": "Ukiyo-e"
+                    },
+                    {
+                        "id": 64,
+                        "name": "underground comix"
+                    },
+                    {
+                        "id": 65,
+                        "name": "vorticism"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "descriptive terms",
+                "modifiers": [
+                    {
+                        "id": 0,
+                        "name": "18th century atlas"
+                    },
+                    {
+                        "id": 1,
+                        "name": "1900s photograph"
+                    },
+                    {
+                        "id": 2,
+                        "name": "astral"
+                    },
+                    {
+                        "id": 3,
+                        "name": "aurora"
+                    },
+                    {
+                        "id": 4,
+                        "name": "beautiful"
+                    },
+                    {
+                        "id": 5,
+                        "name": "bismuth"
+                    },
+                    {
+                        "id": 6,
+                        "name": "colorful"
+                    },
+                    {
+                        "id": 7,
+                        "name": "complex"
+                    },
+                    {
+                        "id": 8,
+                        "name": "cosmic"
+                    },
+                    {
+                        "id": 9,
+                        "name": "crepuscule"
+                    },
+                    {
+                        "id": 10,
+                        "name": "dendritic"
+                    },
+                    {
+                        "id": 11,
+                        "name": "detailed"
+                    },
+                    {
+                        "id": 12,
+                        "name": "diffuse"
+                    },
+                    {
+                        "id": 13,
+                        "name": "dystopian"
+                    },
+                    {
+                        "id": 14,
+                        "name": "earth art"
+                    },
+                    {
+                        "id": 15,
+                        "name": "elaborate"
+                    },
+                    {
+                        "id": 16,
+                        "name": "eldritch"
+                    },
+                    {
+                        "id": 17,
+                        "name": "elemental"
+                    },
+                    {
+                        "id": 18,
+                        "name": "entangled"
+                    },
+                    {
+                        "id": 19,
+                        "name": "ethereal"
+                    },
+                    {
+                        "id": 20,
+                        "name": "expansive"
+                    },
+                    {
+                        "id": 21,
+                        "name": "fire"
+                    },
+                    {
+                        "id": 22,
+                        "name": "firey"
+                    },
+                    {
+                        "id": 23,
+                        "name": "flickering light"
+                    },
+                    {
+                        "id": 24,
+                        "name": "futuristic"
+                    },
+                    {
+                        "id": 25,
+                        "name": "galactic"
+                    },
+                    {
+                        "id": 26,
+                        "name": "geometric"
+                    },
+                    {
+                        "id": 27,
+                        "name": "glowing neon"
+                    },
+                    {
+                        "id": 28,
+                        "name": "golden hour"
+                    },
+                    {
+                        "id": 29,
+                        "name": "gossamer"
+                    },
+                    {
+                        "id": 30,
+                        "name": "heat wave"
+                    },
+                    {
+                        "id": 31,
+                        "name": "holographic"
+                    },
+                    {
+                        "id": 32,
+                        "name": "hyperdetailed"
+                    },
+                    {
+                        "id": 33,
+                        "name": "infinity"
+                    },
+                    {
+                        "id": 34,
+                        "name": "intricate"
+                    },
+                    {
+                        "id": 35,
+                        "name": "iridescent"
+                    },
+                    {
+                        "id": 36,
+                        "name": "landscape"
+                    },
+                    {
+                        "id": 37,
+                        "name": "low poly"
+                    },
+                    {
+                        "id": 38,
+                        "name": "matte background"
+                    },
+                    {
+                        "id": 39,
+                        "name": "meticulous"
+                    },
+                    {
+                        "id": 40,
+                        "name": "moonscape"
+                    },
+                    {
+                        "id": 41,
+                        "name": "mysterious"
+                    },
+                    {
+                        "id": 42,
+                        "name": "noctilucent"
+                    },
+                    {
+                        "id": 43,
+                        "name": "ominous"
+                    },
+                    {
+                        "id": 44,
+                        "name": "ouroboros"
+                    },
+                    {
+                        "id": 45,
+                        "name": "parallax"
+                    },
+                    {
+                        "id": 46,
+                        "name": "photorealistic"
+                    },
+                    {
+                        "id": 47,
+                        "name": "polished"
+                    },
+                    {
+                        "id": 48,
+                        "name": "post-apocalyptic"
+                    },
+                    {
+                        "id": 49,
+                        "name": "psychedelic"
+                    },
+                    {
+                        "id": 50,
+                        "name": "radiant"
+                    },
+                    {
+                        "id": 51,
+                        "name": "retro"
+                    },
+                    {
+                        "id": 52,
+                        "name": "seascape"
+                    },
+                    {
+                        "id": 53,
+                        "name": "serene"
+                    },
+                    {
+                        "id": 54,
+                        "name": "space"
+                    },
+                    {
+                        "id": 55,
+                        "name": "spiraling"
+                    },
+                    {
+                        "id": 56,
+                        "name": "stygian"
+                    },
+                    {
+                        "id": 57,
+                        "name": "sunny"
+                    },
+                    {
+                        "id": 58,
+                        "name": "sunshine rays"
+                    },
+                    {
+                        "id": 59,
+                        "name": "synesthesia"
+                    },
+                    {
+                        "id": 60,
+                        "name": "thunderstorm"
+                    },
+                    {
+                        "id": 61,
+                        "name": "tornadic"
+                    },
+                    {
+                        "id": 62,
+                        "name": "twilight"
+                    },
+                    {
+                        "id": 63,
+                        "name": "vapor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
         "name": "general",
         "subcategories": [
             {
@@ -730,7 +1268,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "digital-art",
         "subcategories": [
             {
@@ -1592,7 +2130,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "painting",
         "subcategories": [
             {
