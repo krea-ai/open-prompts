@@ -12,11 +12,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/krea_ai/prompt-repository">
+  <a href="https://github.com/krea_ai/open-prompts">
     <img src="static/krea.gif" alt="Logo" width="auto" height="200">
   </a>
 
-<h3 align="center">the prompt repository</h3>
+<h3 align="center">open prompts</h3>
 
   <p align="center">
     an open knowledge base of prompts
@@ -67,7 +67,7 @@
 
 with the right spark, we humans are sources of infinite creativity.
 
-*the prompt repository* democratizes a wide variety of creative knowledge to serve as an inspiration when using text-to-image AI models.
+*open prompts* democratizes a wide variety of creative knowledge to serve as an inspiration when using text-to-image AI models.
 
 this is an open knowledge base made by the AI Art community and powered by krea.ai.
 
@@ -114,7 +114,7 @@ for example, the word "Dali" will serve us to describe an image that looks like 
 
 hence, a good visual domain knowledge is key for *prompt engineering*, knowing about different artistic styles, 3D renderers, or photography, enables us to have a wider visual vocabulary that can become handy to communicate our ideas more effectively to an AI model.
 
-### the prompt repository
+### open prompts
 with this project we provide *prompters* with a source of inspiration and of visual domain knowledge.
 
 on the one side, the prompts from our knowledge base are continuously updated by a community of AI enthusiasts that <a href=#-contributing>contribute</a> with their creative ideas, so there are always new ideas to check out.
