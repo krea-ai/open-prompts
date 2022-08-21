@@ -7,7 +7,7 @@ for modifier_category_idx, modifier_category_path in enumerate(
         glob.glob('modifiers/*')):
     modifier_category_name = modifier_category_path.split('/')[1]
     modifier_category_data = {
-        'id': modifier_category_idx + 1,
+        'id': modifier_category_idx,
         'name': modifier_category_name,
         'subcategories': [],
     }
@@ -17,7 +17,7 @@ for modifier_category_idx, modifier_category_path in enumerate(
         modifier_subcategory = subcategory_modifier_path.split('/')[2].split(
             '.')[0]
         modifier_subcategory_data = {
-            'id': subcategory_modifier_idx + 1,
+            'id': subcategory_modifier_idx,
             'name': modifier_subcategory,
             'modifiers': []
         }
@@ -28,7 +28,7 @@ for modifier_category_idx, modifier_category_path in enumerate(
             for subcategory_idx, subcategory_modifier in enumerate(
                     subcategory_modifiers):
                 subcategory_modifier_data = {
-                    'id': subcategory_idx + 1,
+                    'id': subcategory_idx,
                     'name': subcategory_modifier
                 }
                 modifier_subcategory_data['modifiers'].append(
