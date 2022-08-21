@@ -12,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/krea_ai/prompt-repository">
     <img src="static/krea.gif" alt="Logo" width="auto" height="200">
   </a>
 
@@ -24,9 +24,11 @@
     <a href="https://krea.ai"><strong>explore prompts</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name/issues">newsletter</a>
+    <a href="https://theprompter.substack.com/">newsletter</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">community</a>
+    <a href="https://discord.gg/3mkFbvPYut">community</a>
+    ·
+    <a href="#-contributing">contribute</a>
   </p>
 </div>
 
@@ -69,7 +71,7 @@ with the right spark, we humans are infinite sources of creativity.
 
 this is an open knowledge base made by the AI Art community and powered by krea.ai.
 
-you can <a hred=#contribute>contribute</a> with your own prompts, they will be accessible for anyone and for free [here](https://krea.ai).
+you can <a hred=#-contributing>contribute</a> with your own prompts, they will be accessible for anyone and for free [here](https://krea.ai).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +91,7 @@ the art of optimizing the inputs we feed into an AI model to generate content th
 
 a good *prompter* will be able to guide a text-to-image AI model with prompts that produce images that accurately represent their visual ideas.
 
-### the needs of a *prompter*
+### what great *prompters* need
 #### sparks of inspiration
 since language is something that most of us master since a young age, being good at the emerging skill of *prompting* is very related on how creative and original we can get at imagining a text prompt.
 
@@ -115,7 +117,7 @@ hence, a good visual domain knowledge is key for *prompt engineering*, knowing a
 ### the prompt repository
 with this project we provide *prompters* with a source of inspiration and of visual domain knowledge.
 
-on the one side, the prompts from our knowledge are continuously updated by a community of AI enthusiasts that <a href=#contribute>contribute</a> with their creative ideas, so there are always new ideas to check out.
+on the one side, the prompts from our knowledge are continuously updated by a community of AI enthusiasts that <a href=#-contributing>contribute</a> with their creative ideas, so there are always new ideas to check out.
 
 plus, at [krea.ai](https://krea.ai), it is possible to visualize all this prompts, giving extra room for inspiration and surprises.
 
@@ -234,13 +236,9 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 <!-- CONTRIBUTING -->
 ## 📝 contributing
-contributions are at the core of this project.
 
-we made it really simple to contribute:
-1. open
-2. something
-3. add txt
-4. close
+for now, feel free to create a `txt` file containing modifiers or presets with the correct <a href="#%EF%B8%8F-structure-of-the-repository">structure</a> and send it to `v@krea.ai`, we'll make sure to add it to the repository asap :)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -251,13 +249,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
-
 <!-- CONTACT -->
 ## 📞 contact
 
-vicc - [@viccpoes](https://twitter.com/viccpoes) - v@krea.ai
+`vicc` - [@viccpoes](https://twitter.com/viccpoes) - `v@krea.ai`
 
-diego - [@asciidiego](https://twitter.com/asciidiego) - d@krea.ai
+`diego` - [@asciidiego](https://twitter.com/asciidiego) - `d@krea.ai`
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
