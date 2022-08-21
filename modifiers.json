@@ -555,6 +555,182 @@
     },
     {
         "id": 2,
+        "name": "general",
+        "subcategories": [
+            {
+                "id": 0,
+                "name": "genres",
+                "modifiers": [
+                    {
+                        "id": 0,
+                        "name": "8bit"
+                    },
+                    {
+                        "id": 1,
+                        "name": "acrylic art"
+                    },
+                    {
+                        "id": 2,
+                        "name": "airbrush art"
+                    },
+                    {
+                        "id": 3,
+                        "name": "ambient occlusion"
+                    },
+                    {
+                        "id": 4,
+                        "name": "brocade"
+                    },
+                    {
+                        "id": 5,
+                        "name": "cel-shaded"
+                    },
+                    {
+                        "id": 6,
+                        "name": "chalk art"
+                    },
+                    {
+                        "id": 7,
+                        "name": "charcoal drawing"
+                    },
+                    {
+                        "id": 8,
+                        "name": "collage"
+                    },
+                    {
+                        "id": 9,
+                        "name": "digital art"
+                    },
+                    {
+                        "id": 10,
+                        "name": "digital illustration"
+                    },
+                    {
+                        "id": 11,
+                        "name": "dye-transfer"
+                    },
+                    {
+                        "id": 12,
+                        "name": "faience"
+                    },
+                    {
+                        "id": 13,
+                        "name": "filigree"
+                    },
+                    {
+                        "id": 14,
+                        "name": "fractal"
+                    },
+                    {
+                        "id": 15,
+                        "name": "gouache"
+                    },
+                    {
+                        "id": 16,
+                        "name": "impasto"
+                    },
+                    {
+                        "id": 17,
+                        "name": "ink drawing"
+                    },
+                    {
+                        "id": 18,
+                        "name": "kintsugi"
+                    },
+                    {
+                        "id": 19,
+                        "name": "majolica"
+                    },
+                    {
+                        "id": 20,
+                        "name": "mandelbrot"
+                    },
+                    {
+                        "id": 21,
+                        "name": "mandelbulb"
+                    },
+                    {
+                        "id": 22,
+                        "name": "mixed media"
+                    },
+                    {
+                        "id": 23,
+                        "name": "mosaic"
+                    },
+                    {
+                        "id": 24,
+                        "name": "needlepoint"
+                    },
+                    {
+                        "id": 25,
+                        "name": "oil on canvas"
+                    },
+                    {
+                        "id": 26,
+                        "name": "pastels"
+                    },
+                    {
+                        "id": 27,
+                        "name": "pencil sketch"
+                    },
+                    {
+                        "id": 28,
+                        "name": "photoillustration"
+                    },
+                    {
+                        "id": 29,
+                        "name": "pixel art"
+                    },
+                    {
+                        "id": 30,
+                        "name": "quilling"
+                    },
+                    {
+                        "id": 31,
+                        "name": "resin cast"
+                    },
+                    {
+                        "id": 32,
+                        "name": "retroism"
+                    },
+                    {
+                        "id": 33,
+                        "name": "stipple"
+                    },
+                    {
+                        "id": 34,
+                        "name": "tesselation"
+                    },
+                    {
+                        "id": 35,
+                        "name": "thermal imaging"
+                    },
+                    {
+                        "id": 36,
+                        "name": "volumetric lighting"
+                    },
+                    {
+                        "id": 37,
+                        "name": "watercolor"
+                    },
+                    {
+                        "id": 38,
+                        "name": "wet brush"
+                    },
+                    {
+                        "id": 39,
+                        "name": "wet wash"
+                    },
+                    {
+                        "id": 40,
+                        "name": "woodcut"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
         "name": "digital-art",
         "subcategories": [
             {
@@ -1416,7 +1592,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "painting",
         "subcategories": [
             {
