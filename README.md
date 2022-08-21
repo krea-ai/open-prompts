@@ -19,7 +19,7 @@
 <h3 align="center">the prompt repository</h3>
 
   <p align="center">
-    an open knowledge base of prompts powered by krea.ai
+    an open knowledge base of prompts
     <br />
     <a href="https://krea.ai"><strong>explore prompts</strong></a>
     <br />
