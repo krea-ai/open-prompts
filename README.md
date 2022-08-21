@@ -252,7 +252,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## 📞 contact
 
-[@krea_ai](https://twitter.com/krea_ai) - `v@krea.ai`
+[@krea_ai](https://twitter.com/krea_ai) - `v@krea.ai` - <a href="https://discord.gg/3mkFbvPYut">krea discord</a>
 
 
 
