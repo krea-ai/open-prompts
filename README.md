@@ -252,9 +252,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## 📞 contact
 
-`vicc` - [@viccpoes](https://twitter.com/viccpoes) - `v@krea.ai`
+[@krea_ai](https://twitter.com/krea_ai) - `v@krea.ai`
 
-`diego` - [@asciidiego](https://twitter.com/asciidiego) - `d@krea.ai`
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
