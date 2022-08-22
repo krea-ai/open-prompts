@@ -26,8 +26,8 @@
     <br />
     <a href="https://theprompter.substack.com/">newsletter</a>
     ·
-    <a href="https://discord.gg/3mkFbvPYut">community</a>
-    ·
+    <!-- <a href="https://discord.gg/3mkFbvPYut">community ;)</a>
+    · -->
     <a href="#-contributing">contribute</a>
   </p>
 </div>
