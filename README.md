@@ -239,7 +239,6 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 for now, feel free to create a `txt` file containing modifiers or presets with the correct <a href="#%EF%B8%8F-structure-of-the-repository">structure</a> and send it to `v@krea.ai`, we'll make sure to add it to the repository asap :)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 <!-- ## License
@@ -253,6 +252,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 **art**: `art movements`, `art styles`, and `descriptive terms`
 
 **general**: `design tools and communities`, and `genres`
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
