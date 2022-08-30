@@ -1,152 +1,152 @@
-Alex Hirsch style
-Alphonse Mucha style
-Amanda Sage style
-Ben Bocquelet style
-Bernie Wrightson style
-Canaletto Caspar style
-David Friedrich style
-Claude Monet style
-Dan Mumford style
-Dan Witz style
-Edward Hopper style
-Ferdinand Knab style
-Gerald Brom style
-Greg Rutkowski style
-Guido Borelli style
-Gustav Klimt style
-Gustave Doré style
-—H.R. Giger style
-3J.G.Quintel style
-James Gurney style
-Jean Tinguely style
-JimBurns style
-Josephine Wall style
-Julia Pott style
-Kandinsky style
-Kelly Freas style
-Leonid Afremov style
-Max Ernst style
-Moebius style
-Pablo Picasso style
-Pendleton Ward syle
-Pino Daeni style
-Rafael Santi style
-Rebecca Sugar style
-RogerDean style
-Steven Belledin style
-Steven Hillenberg style
-Studio Ghibli style
-Thomas Kinkade style
-Tim Burton style
-VanGogh style
-Wadim Kashin style
-Wes Anderson style
-Zdzistaw Beksiñski style
-Anselm Kiefer style
-Philippe Garel style
-Gérard Garouste style
-Miquel Barceló style
-Vladimir Veličković style
-Georg Baselitz style
-Pierre Soulages style
-Marlene Dumas style
-Jeff Koons style
-Ai Weiwei style
-Yayoi Kusama style
-Damien Hirst style 
-Yoko Ono Style
-Theaster Gates Style
-Frank Stella Style
-Tania Bruguera Style
-Alex Katz Style
-Cindy Sherman Style
-Franco Aceves Humana style
-Mariana Castillo Deball style
-Jeannette Betancourt style 
-Carlos Amorales style 
-Silvia Barbescu style
-Marisa Boullosa style
-Sofía Echeverri style
-Miguel Calderón style
-Máximo González style
-Iván Buenader style
-Graciela Iturbide style
-Emilio Chapela style
-Daniel Guzmán style
-Daniel Alcalá style
-Gilda Castillo style 
-Rodolfo Díaz style 
-Jan Hendrix style
-Marco Arce style
-Boris Viskin style
-Javier Areán style
-Gerda Gruber style
-Cisco Jiménez style
-Berta Kolteniuk style 
-Michel Mallard style
-Luciano Matus style
-Perla Krauze style
-Ricardo Milla style
-Paul Muguet style
-Omar Torres style
-Pia Seiersen style
-Jorge Yázpik style
-Adán Paredes style
-Damián Ortega style
-Pablo López Luz style 
-Fernando Ortega style
-Quirarte + Ornelas style 
-Betsabeé Romero style
-Gabriel de la Mora style
-Samuel Meléndrez style
-José Castro Leñero style 
-Jesús Lugo Paredes style 
-Roger von Gunten style
-Miguel Castro Leñero style
-Miguel Ángel Cordera style
-Miguel Ángel Madrigal style
-Yolanda Azul Paulsen style 
-Mario Palacios Kaim style 
-Patrick Pettersson style
-Raúl Ortega Ayala style 
-Renata Petersen style
-Alejandro Pintado style
-Heriberto Quesnel style
-Georgina Quintana style
-Pablo Vargas Lugo style
-Roberto Turnbull style
-Roberto Rébora style
-Vicente Rojo style
-Nunik Sauret style
-Laura Rosete style
-Melanie Smith style
-Mario Núñez style
-Trini style
-Hitotzuki style
-Shohei Otomo style
-Lady Aiko style
-Dragon 76 style
-Mina Hamada style
-Andy Warhol style
-Takashi Murakami style
-Yoshitomo Nara style
-Frank Stella style
-Keith Haring style
-Mark Grotjahn style
-Anselm Kiefer style
-Peter Doig style
-Richard Prince style
-Takashi Murakami style
-Cecily Brown style
-Jean Rene style
-Hackatao style
-Beeple style
-Mark Klink Digital Art style
-Blacke Kathryn style
-adam martinakis style
-Frenetik Void style
-Jesu Moratiel style
-Geray Mena style
-Magda Arqués style
-Octavio Ocampo style
-Julian Beever style
+Alex Hirsch
+Alphonse Mucha
+Amanda Sage
+Ben Bocquelet
+Bernie Wrightson
+Canaletto Caspar
+David Friedrich
+Claude Monet
+Dan Mumford
+Dan Witz
+Edward Hopper
+Ferdinand Knab
+Gerald Brom
+Greg Rutkowski
+Guido Borelli
+Gustav Klimt
+Gustave Doré
+—H.R. Giger
+3J.G.Quintel
+James Gurney
+Jean Tinguely
+JimBurns
+Josephine Wall
+Julia Pott
+Kandinsky
+Kelly Freas
+Leonid Afremov
+Max Ernst
+Moebius
+Pablo Picasso
+Pendleton Ward
+Pino Daeni
+Rafael Santi
+Rebecca Sugar
+RogerDean
+Steven Belledin
+Steven Hillenberg
+Studio Ghibli
+Thomas Kinkade
+Tim Burton
+VanGogh
+Wadim Kashin
+Wes Anderson
+Zdzistaw Beksiñski
+Anselm Kiefer
+Philippe Garel
+Gérard Garouste
+Miquel Barceló
+Vladimir Veličković
+Georg Baselitz
+Pierre Soulages
+Marlene Dumas
+Jeff Koons
+Ai Weiwei
+Yayoi Kusama
+Damien Hirst
+Yoko Ono
+Theaster Gates
+Frank Stella
+Tania Bruguera
+Alex Katz
+Cindy Sherman
+Franco Aceves Humana
+Mariana Castillo Deball
+Jeannette Betancourt
+Carlos Amorales
+Silvia Barbescu
+Marisa Boullosa
+Sofía Echeverri
+Miguel Calderón
+Máximo González
+Iván Buenader
+Graciela Iturbide
+Emilio Chapela
+Daniel Guzmán
+Daniel Alcalá
+Gilda Castillo
+Rodolfo Díaz
+Jan Hendrix
+Marco Arce
+Boris Viskin
+Javier Areán
+Gerda Gruber
+Cisco Jiménez
+Berta Kolteniuk
+Michel Mallard
+Luciano Matus
+Perla Krauze
+Ricardo Milla
+Paul Muguet
+Omar Torres
+Pia Seiersen
+Jorge Yázpik
+Adán Paredes
+Damián Ortega
+Pablo López Luz
+Fernando Ortega
+Quirarte + Ornelas
+Betsabeé Romero
+Gabriel de la Mora
+Samuel Meléndrez
+José Castro Leñero
+Jesús Lugo Paredes
+Roger von Gunten
+Miguel Castro Leñero
+Miguel Ángel Cordera
+Miguel Ángel Madrigal
+Yolanda Azul Paulsen
+Mario Palacios Kaim
+Patrick Pettersson
+Raúl Ortega Ayala
+Renata Petersen
+Alejandro Pintado
+Heriberto Quesnel
+Georgina Quintana
+Pablo Vargas Lugo
+Roberto Turnbull
+Roberto Rébora
+Vicente Rojo
+Nunik Sauret
+Laura Rosete
+Melanie Smith
+Mario Núñez
+Trini
+Hitotzuki
+Shohei Otomo
+Lady Aiko
+Dragon 76
+Mina Hamada
+Andy Warhol
+Takashi Murakami
+Yoshitomo Nara
+Frank Stella
+Keith Haring
+Mark Grotjahn
+Anselm Kiefer
+Peter Doig
+Richard Prince
+Takashi Murakami
+Cecily Brown
+Jean Rene
+Hackatao
+Beeple
+Mark Klink Digital Art
+Blacke Kathryn
+adam martinakis
+Frenetik Void
+Jesu Moratiel
+Geray Mena
+Magda Arqués
+Octavio Ocampo
+Julian Beever
