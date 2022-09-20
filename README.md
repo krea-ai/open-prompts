@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-<!-- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -19,7 +10,7 @@
 <h3 align="center">open prompts</h3>
 
   <p align="center">
-    data, utilities and APIs for prompting.
+    open knowledge base of prompts.
     <br />
     <a href="https://krea.ai"><strong>explore prompts</strong></a>
     <br />
@@ -28,58 +19,60 @@
     ·
     <a href="https://discord.gg/3mkFbvPYut">community</a>
     ·
-    <a href="#-contributing">contribute</a>
+    <a href="#contributing">contribute</a>
   </p>
 </div>
 
 
 <!-- ABOUT THE PROJECT -->
-## ✨ About
+# Open Prompts
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
+Open Prompts currently contains the data that we used to build [krea.ai](krea.ai). You can either download a file with image links and meta-data of >10M generations, or access this data through our free API.
 
-Open Prompts is currently a collection of the data, utilities, and APIs that we used to build [krea.ai](kre.ai). We hope this repository can useful to build tools that help people create better prompts. You are welcome to <a href=#-contributing>contribute</a> with your own prompts, implementations, and ideas.
+Everyone is welcome to <a href=#contributing>contribute</a> with their own prompts, and ideas.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
-## 📖 Background
-AI models like Stable Diffusion, DALL-E, or Midjourney, are capable of creating stunning images from text descriptions. They provide creatives with freedom to produce an image of almost anything they can imagine.
+# About
+AI models like Stable Diffusion, DALL-E, or Midjourney, are capable of creating stunning images from text descriptions. They provide us with freedom to produce an image of almost anything we can imagine.
 
-Although some artists can get already get value from randomly throwing ideas to these models, creating a prompt can be a challenging creative exercise; visual domain knowledge is necessary to describe ideas accurately as well as a sense of how each model understands different concepts. A single word can convey lots of visual information about how an image should look like—from specific lightings to artistic styles, mediums or compositions—and each model will interpret it differently.
+Platforms like Lexica, OpenArt, and Krea let us explore millions of AI generated images as well as the prompts that produced them. They are helpful to see what words work for generating certain styles and to assess how each AI model interprets different concepts.
 
-Platforms like Lexica, OpenArt, and Krea let creatives explore millions of prompts and the images they produced. They are helpful to see what words worked for generating certain styles and to assess how the AI model interprets different concepts.
+We are just starting to explore the possibilities of text-to-image models, and we do not necessarily need to re-train them to dramatically improve their results; we can also learn how to prompt them effectively. 
 
-We are just starting to explore the possibilities of text-to-image models. The interesting news is that we do not necessarily need to re-train them to produce better results. There is plenty of room for improvement by getting a better understanding about how they encode knowledge. 
-
-We hope this repository serves to conduct studies, explorations, or to build tools that help people create better prompts.
-
-
-## open prompts
-with this project we provide *prompters* with a source of inspiration and of visual domain knowledge.
-
-on the one side, the prompts from our knowledge base are continuously updated by a community of AI enthusiasts that <a href=#-contributing>contribute</a> with their creative ideas, so there are always new ideas to check out.
-
-plus, at [krea.ai](https://krea.ai), it is possible to visualize all this prompts, giving extra room for inspiration and surprises.
-
-on the other hand, the knowledge is organized in a way that makes it easy to browse and learn about different artists and concepts while exploring prompts.
+We hope this repository serves anyone who wants to analyze large datasets of prompts, create datasets to train new models, or build tools that help people create better prompts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# Data
+There are two different sources of data in this repository. The first, contains more than 10 million generations extracted from the Stability AI Discord during the beta testing of Stable Diffusion v1.3. The second, is a small but structured set of data that we created ourselves and that we expect to be grown by the AI community.
 
-## 🏛️ structure of the repository
-right now there exist two different kinds of elements that can be added to the repository: *modifiers* and *presets*.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### modifiers
-modifiers are those parts of a text prompt that contain the stylistic information of it.
+## Stable Diffusion Dataset
+the dataset was extracted from X and from X. 
 
-for example, if we want a prompt to look like a 3D render, we could use `octane render`, `unreal engine`, or `ray tracing` to enhance the style of our generations.
+### Download
+instructions about how to download it
 
-modifiers can be very variate, from very precise colors and shapes to very abstract concepts and emotions—some people even find it useful to use emojis!
+### Structure
+structure about the data here.
 
-the following is a tree representation of how we have organized the modifiers in this project:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Open Prompts Signature Dataset
+This dataset started as a manual work that we conducted to create the modifiers in [https://krea.ai](krea.ai). It is way smaller than the previous dataset, but we expect to grow it from the contributions from the community. For now the instructions for contributing can be found <a href="#contributing">here</a>, but in the future we will look for a cleaner way to upload prompts to this dataset—ideally including images too!
+
+This dataset differentiates between two different kinds of elements: *modifiers* and *presets*.
+
+### Modifiers
+Modifiers are those parts of a text prompt that contain the stylistic information of it. For example, if we want a prompt to look like a 3D render, we could use `octane render`, `unreal engine`, or `ray tracing` to enhance the style of our generations.
+
+Modifiers can be very variate, from very precise colors and shapes to very abstract concepts and emotions—some people even find it useful to use emojis! The following is a tree representation of how we have organized the modifiers in this project:
 
 ```
 ├── README.md
@@ -94,15 +87,9 @@ the following is a tree representation of how we have organized the modifiers in
 ...
 ```
 
-all the modifiers can be found within the folder `modifiers`.
+All the modifiers can be found within the folder `modifiers`, and they are organized within sub-categories that at its time belong to a parent category. Each of the subfolders within `modifiers` represents a different category—and the name of each subfolder specifies the name of each category. Sub-categories are represented within `txt` files where their name represent the name of the sub-category, and they contain a different modifier in each row.
 
-modifiers are organized within sub-categories that at its time belong to a parent category.
-
-each of the subfolders within `modifiers` represents a different category of modifiers—and the name of each subfolder specifies the name of each category.
-
-modifier subcategory files are plain `txt` that contain a different modifier in each row. 
-
-the following is an example of how the subcategory `3D` from the category `digital art` could look like:
+The following is an example of how the subcategory `3D` from the category `digital art` could look like:
 ```
 artstation
 renderman
@@ -111,14 +98,12 @@ octane render
 high quality 3d render
 ```
 
-### presets
-presets are sets of modifiers that work well when used together and they normally share similarities.
+Note that each line represents a SINGLE modifier, and that there is nothing else in the file, just modifiers separated by lines.
 
-organizing sets of modifiers within presets is very handy for speeding up the creation of prompts. 
+### Presets
+Presets are sets of modifiers that work well when used together and they normally share similarities. Organizing sets of modifiers within presets can come handy for speeding up the creation of prompts. For example, if we know that `greg rutkowski` creates amazing 3D art, we will probably find ourselves combining it all the time with modifiers such as `unreal engine`, `3D`, `artstation` and even with other similar artists like `wlop`.
 
-if we know that `greg rutkowski` creates amazing 3D art, we will probably find ourselves combining it all the time with modifiers such as `unreal engine`, `3D`, `artstation` and even with other similar artists like `wlop`.
-
-the following is a tree representation of how we have organized the presets in this project:
+The following is a tree representation of how we have organized the presets in this project:
 
 ```
 ├── README.md
@@ -133,17 +118,9 @@ the following is a tree representation of how we have organized the presets in t
 ...
 ```
 
-all the presets can be found within the folder `presets`.
+All the presets can be found within a folder within `presets`. Each of these folders will contain the name of the author that created each preset. Inside these folders, each preset is created in a different `txt` file. Each file contains a different modifier in each row. 
 
-modifiers are organized within depending on their author. 
-
-this author can be a single person or a group of people working together. 
-
-each author folder contains all the presets that it has created.
-
-each preset file is a plain `txt` that contain a different modifier in each row. 
-
-the following is an example of how the subcategory `glossy tubes` from the category `krea` could look like:
+The following is an example of how the subcategory `glossy tubes` from the category `krea` could look like:
 ```
 glossy translucent glass with abstract tubular shapes
 psychedelic texture
@@ -154,24 +131,25 @@ caspar david friedrich
 ArtStation HD
 ```
 
-<!-- ROADMAP -->
-<!-- ## Roadmap -->
+We found that using all these modifiers combined works particularly well.
 
-<!-- - [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+### Contributing
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+for now, feel free to create a `txt` file containing modifiers or presets with the correct <a href="Modifiers">structure</a> and send it to `v@krea.ai`, we'll make sure to add it to the repository asap :)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# Free API
+API instructions / docs
 
-<!-- CONTRIBUTING -->
-## 📝 contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-for now, feel free to create a `txt` file containing modifiers or presets with the correct <a href="#%EF%B8%8F-structure-of-the-repository">structure</a> and send it to `v@krea.ai`, we'll make sure to add it to the repository asap :)
+# Create your own CLIP Search Engine with *Open Prompts*
+In our [https://github.com/krea-ai/clip-search](clip-search) repository you will find everything you need to create a semantic search engine with CLIP.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
@@ -181,7 +159,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-### contributors
+
+
+<!-- CONTACT -->
+# Get in Touch
+
+[@krea_ai](https://twitter.com/krea_ai) - `v@krea.ai` - <a href="https://discord.gg/3mkFbvPYut">discord</a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Contributors
 #### [@blademort](https://twitter.com/blademort)
 **art**: `art movements`, `art styles`, and `descriptive terms`
 
@@ -189,18 +177,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## 📞 contact
-
-[@krea_ai](https://twitter.com/krea_ai) - `v@krea.ai` - <a href="https://discord.gg/3mkFbvPYut">krea discord</a>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
