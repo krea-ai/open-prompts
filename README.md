@@ -19,102 +19,45 @@
 <h3 align="center">open prompts</h3>
 
   <p align="center">
-    an open knowledge base of prompts
+    data, utilities and APIs for prompting.
     <br />
     <a href="https://krea.ai"><strong>explore prompts</strong></a>
     <br />
     <br />
     <a href="https://theprompter.substack.com/">newsletter</a>
     ·
-    <!-- <a href="https://discord.gg/3mkFbvPYut">community ;)</a>
-    · -->
+    <a href="https://discord.gg/3mkFbvPYut">community</a>
+    ·
     <a href="#-contributing">contribute</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<!-- <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details> -->
-
-
 
 <!-- ABOUT THE PROJECT -->
-## ✨ about
+## ✨ About
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-with the right spark, we humans are sources of infinite creativity.
 
-*open prompts* democratizes a wide variety of creative knowledge to serve as an inspiration when using text-to-image AI models.
-
-this is an open knowledge base made by the AI Art community and powered by krea.ai.
-
-you can <a href=#-contributing>contribute</a> with your own prompts, they will be accessible for anyone and for free [here](https://krea.ai).
-
+Open Prompts is currently a collection of the data, utilities, and APIs that we used to build [krea.ai](kre.ai). We hope this repository can useful to build tools that help people create better prompts. You are welcome to <a href=#-contributing>contribute</a> with your own prompts, implementations, and ideas.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
-## 🧑‍🎨 getting started
+## 📖 Background
+AI models like Stable Diffusion, DALL-E, or Midjourney, are capable of creating stunning images from text descriptions. They provide creatives with freedom to produce an image of almost anything they can imagine.
 
-### prompts and AI
-AI is extending the creative possibilities of language to the realm of visual arts.
+Although some artists can get already get value from randomly throwing ideas to these models, creating a prompt can be a challenging creative exercise; visual domain knowledge is necessary to describe ideas accurately as well as a sense of how each model understands different concepts. A single word can convey lots of visual information about how an image should look like—from specific lightings to artistic styles, mediums or compositions—and each model will interpret it differently.
 
-today, a few words is all we need to express our ideas visually through an image.
+Platforms like Lexica, OpenArt, and Krea let creatives explore millions of prompts and the images they produced. They are helpful to see what words worked for generating certain styles and to assess how the AI model interprets different concepts.
 
-models like DALL-E, Stable Diffusion, or Midjourney, are capable of creating almost any image we can imagine if we find the right combination of words that make them understand our purpose.
+We are just starting to explore the possibilities of text-to-image models. The interesting news is that we do not necessarily need to re-train them to produce better results. There is plenty of room for improvement by getting a better understanding about how they encode knowledge. 
 
-the art of optimizing the inputs we feed into an AI model to generate content is known as *prompting* or *prompt engineering*.
+We hope this repository serves to conduct studies, explorations, or to build tools that help people create better prompts.
 
-a good *prompter* will be able to guide a text-to-image AI model with prompts that produce images that align with their visual ideas.
 
-### what great *prompters* need
-#### sparks of inspiration
-since language is something that most of us master (at a certain level) since a young age, being good at *prompting* is highly conditioned on how creative and original we can get with our text prompts.
-
-creativity is inherently related with the combination of dispar ideas in ways that we never imagined before.
-
-indeed, half of the work in creative jobs consists of searching for ideas to merge together and create something new.
-
-that is why open Discords like Midjourney's have worked so well with text-to-image AI models, people get lots of ideas from other's generations.
-
-#### visual domain knowledge
-there are many ways to express an idea through text, and there are words that can convey complex ideas extremelly well.
-
-that's why a good vocabulary is something helpful for expressing through text.
-
-something similar happens with *prompting*.
-
-a simple word can convey an insane amount of information about how our final image will look like, from specific kinds of lighting to artistic mediums or compositions.
-
-for example, the word "Dali" will serve us to describe an image that looks like a surrealist painting with abstract shapes and bizarre elements.
-
-hence, a good visual domain knowledge is key for *prompt engineering*, knowing about different artistic styles, 3D renderers, or photography, enables us to have a wider visual vocabulary that can become handy to communicate our ideas more effectively to an AI model.
-
-### open prompts
+## open prompts
 with this project we provide *prompters* with a source of inspiration and of visual domain knowledge.
 
 on the one side, the prompts from our knowledge base are continuously updated by a community of AI enthusiasts that <a href=#-contributing>contribute</a> with their creative ideas, so there are always new ideas to check out.
@@ -125,15 +68,6 @@ on the other hand, the knowledge is organized in a way that makes it easy to bro
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- USAGE EXAMPLES -->
-<!-- ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## 🏛️ structure of the repository
 right now there exist two different kinds of elements that can be added to the repository: *modifiers* and *presets*.
@@ -267,16 +201,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
