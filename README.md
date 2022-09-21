@@ -63,6 +63,7 @@ There are three main data sources that you can use.
 1. **Prompts API**. We released a (experimental) REST-based API that you can query to find and paginate through prompts—and its generations.
 
 1. **CSV dataset**. This is a large CSV file that contains more than 10 million generations extracted from the Stability AI Discord during the beta testing of Stable Diffusion v1.3.
+    1. **For now, this dataset only includes URLs that are served from the official Discord CDN**. If you want to download compressed images in `webp` format, use the Prompts API where the data has been parsed and stored in our internal servers.
 
 1. **This repository**. This repository contains a small but structured set of data that we created for the category section of [krea.ai](https://www.krea.ai). Anyone can <a href="#contributing">contribute</a>.
 
@@ -76,7 +77,7 @@ You can get query data from the dataset using our (experimental) [Prompts API](h
 
 ## CSV file
 
-To download the dataset click [this link]() or execute the following `wget` command:
+To download the dataset click **[this link](https://drive.google.com/file/d/1c4WHxtlzvHYd0UY5WCMJNn2EO-Aiv2A0/view)** or execute the following `wget` command:
 
 ```bash
 
@@ -85,9 +86,69 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 # See: https://stackoverflow.com/a/39087286/10391569
 ```
 
+### Lite dataset
+
+Since the file is large (>3 GB), you may want to download a “lite” version of it first so you can experiment with the data.  You can find the mini-dataset in the `data` subfolder ([the dataset file](./data/1k.csv) is named `1k.csv`).
+
 ### Structure of the dataset
 
-The CSV file has a simple and raw structure. We may publish parsing scripts in the future, but we are focused on building more features for [krea.ai](https://www.krea.ai) for now. If you know Python, we would love to feature your parsing scripts here. To do so, simply [fork the repo and submit a PR](https://github.com/krea-ai/open-prompts/fork).
+The CSV file has a simple and raw structure. There are two columns: `prompt` and `raw_data`.
+
+```python
+import csv
+import json
+
+from pprint import pprint
+
+with open("dataset.csv") as f:
+    csv_reader = csv.DictReader(f)
+    for row_number, row in enumerate(csv_reader):
+        if row_number > 0:
+            break
+        datum = row
+
+pprint(datum['prompt'])
+pprint(datum['raw_data'])
+```
+```python
+# OUTPUT
+('A portrait photo of a kangaroo wearing an orange hoodie and blue sunglasses '
+ 'standing on the grass in front of the Sydney Opera House holding a sign on '
+ 'the chest that says Welcome Friends, subject: kangaroo, subject detail: '
+ 'wearing orange hoodie, wearing blue sunglasses, subject location: sydney '
+ 'opera house, subject action: holding sign')
+
+{'image_uri': 'PENDING',
+ 'modifiers': ['portrait photo',
+               'kangaroo wearing',
+               'orange hoodie',
+               'blue sunglasses standing',
+               'grass',
+               'sydney opera house holding',
+               'sign',
+               'chest',
+               'says welcome friends',
+               'subject kangaroo',
+               'subject detail wearing orange hoodie',
+               'wearing blue sunglasses',
+               'subject location sydney opera house',
+               'subject action holding sign'],
+ 'raw_discord_data': {'cfg_scale': 15.0,
+                      'content': '',
+                      'content_type': 'image/png',
+                      'height': 512,
+                      'image_proxy_uri': '',
+                      'image_uri': 'https://cdn.discordapp.com/attachments/1005543895024812062/1006343074768769054/A_portrait_photo_of_a_kangaroo_wearing_an_orange_hoodie_and_blue_sunglasses_standing_on_the_grass_in_front_of_the_Sydney_Opera_House_holding_a_sign_-C_15.0_-n_9_-i_-S_556046175_ts-1660001285_idx-4.png',
+                      'is_grid': 0,
+                      'num_generations': 9,
+                      'num_step': 50,
+                      'seed': 556046175,
+                      'timestamp': 1660001285,
+                      'width': 512},
+ 'thumbnail_uri': 'PENDING'}
+```
+
+We may publish parsing scripts in the future, but we are focused on building more features for [krea.ai](https://www.krea.ai) for now. If you know Python, we would love to feature your parsing scripts here. To do so, simply [fork the repo and submit a PR](https://github.com/krea-ai/open-prompts/fork).
 
 ### How was the dataset made?
 
