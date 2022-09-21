@@ -21,7 +21,7 @@
     ·
     <a href="#contributing">contribute</a>
   </p>
-  <p>
+  <p align="center">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/krea_ai">
   </p>
 </div>
