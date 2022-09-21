@@ -239,7 +239,7 @@ We found that using all these modifiers combined works particularly well.
 
 # Contributing
 
-for now, feel free to create a `txt` file containing modifiers or presets with the correct <a href="Modifiers">structure</a> and send it to `v@krea.ai`, we'll make sure to add it to the repository asap :)
+[We](https://github.com/krea-ai/open-prompts/fork) [love](https://github.com/krea-ai/open-prompts/fork) [PRs](https://github.com/krea-ai/open-prompts/fork)! If you want to add your own parsing scripts, modifiers to the in-repository dataset—or anything really—simply [fork the repository](https://github.com/krea-ai/open-prompts/fork) and propose changes. We will review them swiftly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
