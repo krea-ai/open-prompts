@@ -258,7 +258,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 
-# Get in Touch
+# Get in touch
 
 - Follow and DM us on Twitter: [@krea_ai](https://twitter.com/krea_ai)
 - Join [our Discord community](https://discord.gg/3mkFbvPYut)
