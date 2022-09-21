@@ -20,8 +20,9 @@
     <a href="https://discord.gg/3mkFbvPYut">community</a>
     ·
     <a href="#contributing">contribute</a>
-    ·
-    ![Twitter Follow](https://img.shields.io/twitter/follow/krea_ai?style=social)
+  </p>
+  <p>
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/krea_ai">
   </p>
 </div>
 
