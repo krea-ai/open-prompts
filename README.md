@@ -22,7 +22,9 @@
     <a href="#contributing">contribute</a>
   </p>
   <p align="center">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/krea_ai">
+    <a href="https://twitter.com/krea_ai">
+      <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/krea_ai">
+    </a>
   </p>
 </div>
 
