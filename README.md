@@ -20,6 +20,8 @@
     <a href="https://discord.gg/3mkFbvPYut">community</a>
     ·
     <a href="#contributing">contribute</a>
+    ·
+    <a href="https://twitter.com/krea_ai">twitter</a>
   </p>
 </div>
 
@@ -29,9 +31,11 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Open Prompts currently contains the data that we used to build [krea.ai](krea.ai). You can either download a file with image links and meta-data of >10M generations, or access this data through our free API.
+Open Prompts contains the data we use to build [krea.ai](krea.ai). You can get access to this data too.
 
-Everyone is welcome to <a href=#contributing>contribute</a> with their own prompts, and ideas.
+You can either download a (large) CSV file with image links and meta-data of >10M generations, or access it through [our free API](https://devapi.krea.ai) (still in development).
+
+Everyone is welcome to <a href=#contributing>contribute</a> with their own prompts, and [ideas](https://discord.gg/K8anVEWbQC).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -40,7 +44,7 @@ Everyone is welcome to <a href=#contributing>contribute</a> with their own promp
 # About
 AI models like Stable Diffusion, DALL-E, or Midjourney, are capable of creating stunning images from text descriptions. They provide us with freedom to produce an image of almost anything we can imagine.
 
-Platforms like Lexica, OpenArt, and Krea let us explore millions of AI generated images as well as the prompts that produced them. They are helpful to see what words work for generating certain styles and to assess how each AI model interprets different concepts.
+Platforms like Lexica, OpenArt, and Krea.ai let us explore millions of AI generated images—as well as the prompts that produced them. They help you see what words work for generating certain styles and to assess how each AI model interprets different concepts.
 
 We are just starting to explore the possibilities of text-to-image models, and we do not necessarily need to re-train them to dramatically improve their results; we can also learn how to prompt them effectively. 
 
@@ -49,23 +53,48 @@ We hope this repository serves anyone who wants to analyze large datasets of pro
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Data
-There are two different sources of data in this repository. The first, contains more than 10 million generations extracted from the Stability AI Discord during the beta testing of Stable Diffusion v1.3. The second, is a small but structured set of data that we created ourselves and that we expect to be grown by the AI community.
+There are three main data sources that you can use.
+
+1. **Prompts API**. We released a (experimental) REST-based API that you can query to find and paginate through prompts—and its generations.
+
+1. **CSV dataset**. This is a large CSV file that contains more than 10 million generations extracted from the Stability AI Discord during the beta testing of Stable Diffusion v1.3.
+
+1. **This repository**. This repository contains a small but structured set of data that we created for the category section of [krea.ai](https://www.krea.ai). Anyone can <a href="#contributing">contribute</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Stable Diffusion Dataset
-the dataset was extracted from X and from X. 
-
-### Download
-instructions about how to download it
-
-### Structure
-structure about the data here.
+## Prompts API
+You can get query data from the dataset using our (experimental) [Prompts API](https://devapi.krea.ai).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Open Prompts Signature Dataset
-This dataset started as a manual work that we conducted to create the modifiers in [https://krea.ai](krea.ai). It is way smaller than the previous dataset, but we expect to grow it from the contributions from the community. For now the instructions for contributing can be found <a href="#contributing">here</a>, but in the future we will look for a cleaner way to upload prompts to this dataset—ideally including images too!
+## CSV file
+
+To download the dataset click [this link]() or execute the following `wget` command:
+
+```bash
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1c4WHxtlzvHYd0UY5WCMJNn2EO-Aiv2A0' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1c4WHxtlzvHYd0UY5WCMJNn2EO-Aiv2A0" -O openprompts.csv && rm /tmp/cookies.txt
+
+# See: https://stackoverflow.com/a/39087286/10391569
+```
+
+### Structure of the dataset
+
+The CSV file has a simple and raw structure. We may publish parsing scripts in the future, but we are focused on building more features for [krea.ai](https://www.krea.ai) for now. If you know Python, we would love to feature your parsing scripts here. To do so, simply [fork the repo and submit a PR](https://github.com/krea-ai/open-prompts/fork).
+
+### How was the dataset made?
+This dataset was created using a crawler and one-time use parsing scripts that mixed our own crawled generations with the [dataset](https://github.com/paperdave/stable-diffusion-sqlite) published by [paperdave](https://github.com/paperdave/) (thanks Dave!).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## In-repository dataset
+This dataset started as a manual work that we conducted to create the modifiers in [krea.ai](https://www.krea.ai).
+
+It is smaller than the previous dataset, but it is simpler as well. It is just plain-text files that
+anyone can edit.
+
+We want the best prompt engineers out there to grow it for the benefit of everyone else. For now the instructions for contributing can be found <a href="#contributing">here</a>, but in the future we will look for a cleaner way to upload prompts to this dataset—ideally including images too!
 
 This dataset differentiates between two different kinds of elements: *modifiers* and *presets*.
 
@@ -101,6 +130,7 @@ high quality 3d render
 Note that each line represents a SINGLE modifier, and that there is nothing else in the file, just modifiers separated by lines.
 
 ### Presets
+
 Presets are sets of modifiers that work well when used together and they normally share similarities. Organizing sets of modifiers within presets can come handy for speeding up the creation of prompts. For example, if we know that `greg rutkowski` creates amazing 3D art, we will probably find ourselves combining it all the time with modifiers such as `unreal engine`, `3D`, `artstation` and even with other similar artists like `wlop`.
 
 The following is a tree representation of how we have organized the presets in this project:
@@ -135,14 +165,9 @@ We found that using all these modifiers combined works particularly well.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Contributing
+# Contributing
 
 for now, feel free to create a `txt` file containing modifiers or presets with the correct <a href="Modifiers">structure</a> and send it to `v@krea.ai`, we'll make sure to add it to the repository asap :)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# Free API
-API instructions / docs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,8 +188,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 # Get in Touch
-
-[@krea_ai](https://twitter.com/krea_ai) - `v@krea.ai` - <a href="https://discord.gg/3mkFbvPYut">discord</a>
+- Follow and DM us on Twitter: [@krea_ai](https://twitter.com/krea_ai)
+- Join [our Discord community](https://discord.gg/3mkFbvPYut)
+- Email either `v` or `d` (`v` at `krea` dot `ai`; `d` at `krea` dot `ai` respectively)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
