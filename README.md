@@ -34,7 +34,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Open Prompts contains the data we use to build [krea.ai](krea.ai). Now, you can get access to this data too.
+Open Prompts contains the data we use to build [krea.ai](https://krea.ai). Now, you can get access to this data too.
 
 You can either download a (large) CSV file with image links and meta-data of >10M generations, or access it through [our free API](https://devapi.krea.ai) (still in development).
 
