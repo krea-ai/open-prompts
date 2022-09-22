@@ -10,7 +10,7 @@
 <h3 align="center">open prompts</h3>
 
   <p align="center">
-    open knowledge base of prompts.
+    open prompt knowledge.
     <br />
     <a href="https://krea.ai"><strong>explore prompts</strong></a>
     <br />
@@ -34,11 +34,13 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Open Prompts contains the data we use to build [krea.ai](krea.ai). You can get access to this data too.
+Open Prompts contains the data we use to build [krea.ai](krea.ai). Now, you can get access to this data too.
 
 You can either download a (large) CSV file with image links and meta-data of >10M generations, or access it through [our free API](https://devapi.krea.ai) (still in development).
 
 Everyone is welcome to <a href=#contributing>contribute</a> with their own prompts, and [ideas](https://discord.gg/K8anVEWbQC).
+
+If you want to use this data to implement a semantic search engine with CLIP (like we did), check out [prompt-search](https://github.com/krea-ai/prompt-search).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
